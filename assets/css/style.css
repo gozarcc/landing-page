@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Tangerine', cursive;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 100vh;
+}
+
+img {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.banner-container {
+	background-color: rgba(255,128,128, 0.3);
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+h1 {
+	color: rgba(17,19,22, 0.7);
+	font-size: 12vh;
+	letter-spacing: 0.2em;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -60%); 
+}
+
+h2	{
+	color: rgba(17,19,22, 0.7);
+	font-size: 4vh;
+	letter-spacing: 0.2em;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -30%); 
+}
+
+#btn-explore {
+	background: transparent;
+	box-shadow: 4px 4px 6px hsla(0, 0%, 0%, 0.3);
+	color: #111316;
+	font-size: 2.5vh;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	padding: 0.5em 1.5em;
+	position: absolute;
+	left: 50%;
+	text-decoration: none;
+	top: 75%;
+	transform: translate(-50%, -20%);
+}
+
+#btn-explore:hover {
+	background-color: rgba(255,128,128, 0.5);
+}
+
+#message-container {
+	background-color: rgba(193,177,164, 0.2);
+	min-height: 300px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 1000px;
+}
